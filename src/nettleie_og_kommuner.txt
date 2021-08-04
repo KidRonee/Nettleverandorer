@@ -28,7 +28,7 @@ Lillestrøm - elvia
 Nittedal - elvia
 Gjerdrum - elvia
 Ullensaker - elvia
-Nes -elvia
+Nes - elvia
 Eidsvoll - elvia
 Nannestad - elvia
 Hurdal - elvia
@@ -56,7 +56,7 @@ Lillehammer - elvia
 Gjøvik - vokksnett og elvia
 Ringsaker - elvia
 Løten - elvia
-Stange - stange energinett
+Stange - stange energinett og eidsiva nett
 Nord-Odal - elvia
 Sør-Odal - elvia
 Eidskog - elvia
@@ -352,29 +352,6 @@ Tana - varanger kraftnett
 Nesseby - varanger kraftnett
 Båtsfjord - varanger kraftnett
 Sør-Varanger - varanger kraftnett
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-HOLSEN - bkk
-stange - eidsiva
 
 
 
