@@ -8,31 +8,80 @@ Austevoll Kraftlag
 BKK Nett
 Ballangen Energi
 Bindal Kraftlag
+Dalane energi
 Dragefossen
+Drangedal everk
 Elvia
+Eidefoss
 Etne Elektrisitetslag
 Finnås Kraftlag AS
 Fitjar Kraftlag
 Flesberg Elektrisitetsverk
+Fjelberg kraftlag
 Fosen Nett
 Fusa Kraftlag
+Gaudal nett
+Gudbrandsdal energi nett
 Hadeland Energi
+Hallingdal kraftnett
 Hammerfest Energi
 Hardanger Energi
+Haugaland kraft nett
 Helgeland Kraft
+Hålogaland kraft
 Hemsedal Energi
 Hjartdal Elverk
 Høland og Setskog Elverk
+ISE nett
 Istad Kraft
+Jæren everk
+Klepp energi
 Kvam Kraftverk
 Kvennhusåi Kraftverk
 Kvikne-Rennebu Kraftlag
 Kvinneherad Energi
-Lyse Energislag
+Lofotkraft
+Lyse elnett
+Luostejok kraftlag
+Lærdal energi
 Malmo Elektrisitetsverk
 Meierifossen Kraftverk
+Meløy energi
 Midtkraft Strøm
+mørenett
+NEAS
+Nordlandsnett
+Nordkraft nett
+Nordkyn kraftlag
+Nordvest nett
+Nord-østerdal kraftlag
+Nord-salten kraft
+NTE nett
+Opplandskraft
 Rakkestad Energi
+Rauland kraftforsyningslag
+Rauma energi
+Repvåg kraftlag
+Røros elektrisitetsverk
+Valdres energiverk
+Varanger kraftnett
+Vesterålskraft nett
+Vest-telemark kraftlag
+Vokksnett
+SFE nett
+Skagerak nett
+Skjåk energi
+Skånevik ælen kraftlag
+Sognekraft
+Sykkylven energi
+Stange energinett
+Stranda energiverk
+Stryn energi
+Sunnfjord energi
+Svorka nett
 Tensio
+Tysnes kraftlag
+Troms kraft nett
+Trønderenergi nett
 Ymber
 Årdal Kraftlag
