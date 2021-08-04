@@ -241,7 +241,7 @@ Frøya - trønderenergi nett
 Osen - trønderenergi nett
 Oppdal - oppdal everk
 Rennebu - kvikne-rennebu kraftlag
-Røros - røres eletrisitetsverk
+Røros - røros eletrisitetsverk
 Holtålen - gauldal nett
 Midtre Gauldal - gauldal nett
 Melhus - trønderenergi nett
