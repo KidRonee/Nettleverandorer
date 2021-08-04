@@ -6,10 +6,18 @@ import java.util.Scanner;
 
 public class Kraftakt {
     public  ArrayList<String> aktorer = new ArrayList<>();
-    private  ArrayList<Integer> postNr = new ArrayList<>();
+    private  ArrayList<String> postNr = new ArrayList<>();
 
     public Kraftakt() {
         reader();
+        fillPostNr();
+    }
+
+    public ArrayList<String> fillPostNr() {
+        for(int i = 0; i < 9992; i++) {
+            postNr.add(String.format("%04d", i));
+        }
+        return postNr;
     }
 
     public ArrayList<String> reader() {
