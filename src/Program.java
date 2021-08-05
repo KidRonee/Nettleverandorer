@@ -3,7 +3,7 @@ import java.util.stream.Collectors;
 public class Program {
     public Program() {
         menu();
-        lokaliser(0256);
+        lokaliser(1881);
     }
 
     public void menu() {
@@ -13,10 +13,29 @@ public class Program {
 
     public void lokaliser(int postNummer) {
         Kraftakt ka = new Kraftakt();
-        if(postNummer <= 1295) {
+        if (postNummer > 1449 && postNummer < 1461) {
+            System.out.println(ka.aktorer.stream().filter(it -> it.contains("Norgesnett")).collect(Collectors.toList()));
+            return;
+        }
+        if (postNummer > 1679 && postNummer < 1693) {
+            System.out.println(ka.aktorer.stream().filter(it -> it.contains("Norgesnett")).collect(Collectors.toList()));
+            System.out.println("Hvaler");
+            return;
+        }
+        if (postNummer > 1880 && postNummer < 1900) {
+            System.out.println(ka.aktorer.stream().filter(it -> it.contains("Rakkestad")).collect(Collectors.toList()));
+            System.out.println("Rakkestad");
+            return;
+        }
+        if(postNummer <= 1889) {
             System.out.println(ka.aktorer.stream().filter(it -> it.contains("Elvia")).collect(Collectors.toList()));
-        } else {
-            System.out.println("not found...");
+            return;
+        }
+
+        else {
+            System.out.println("error, not found!");
         }
     }
+
+
 }
