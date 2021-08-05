@@ -27,7 +27,13 @@ public class Program {
             System.out.println("Rakkestad");
             return;
         }
-        if(postNummer <= 1889) {
+        if (postNummer > 1900 && postNummer < 1920) {
+            System.out.println(ka.aktorer.stream().filter(it -> it.contains("Norgesnett")).collect(Collectors.toList()));
+            System.out.println("Rakkestad");
+            return;
+        }
+        if (postNummer >)
+        if(postNummer <= 2477) {
             System.out.println(ka.aktorer.stream().filter(it -> it.contains("Elvia")).collect(Collectors.toList()));
             return;
         }
