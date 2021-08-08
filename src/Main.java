@@ -1,9 +1,12 @@
+import java.io.IOException;
+
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         System.out.println("hello world");
-            Kraftakt kf = new Kraftakt();
-            System.out.println(kf.aktorer);
-            new Program();
+        new Program();
+        Kraftakt kf = new Kraftakt();
+            //System.out.println(kf.aktorer);
+
     }
 }

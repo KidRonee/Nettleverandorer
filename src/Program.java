@@ -1,9 +1,9 @@
+import java.io.IOException;
 import java.util.stream.Collectors;
 
 public class Program {
-    public Program() {
+    public Program() throws IOException {
         menu();
-        lokaliser(1881);
     }
 
     public void menu() {
@@ -11,7 +11,7 @@ public class Program {
         System.out.println("Tast 1 for å komme i gang (:");
     }
 
-    public void lokaliser(int postNummer) {
+    public void lokaliser(int postNummer) throws IOException {
         Kraftakt ka = new Kraftakt();
         if (postNummer > 1449 && postNummer < 1461) {
             System.out.println(ka.aktorer.stream().filter(it -> it.contains("Norgesnett")).collect(Collectors.toList()));
@@ -32,7 +32,6 @@ public class Program {
             System.out.println("Rakkestad");
             return;
         }
-        if (postNummer >)
         if(postNummer <= 2477) {
             System.out.println(ka.aktorer.stream().filter(it -> it.contains("Elvia")).collect(Collectors.toList()));
             return;
@@ -42,6 +41,4 @@ public class Program {
             System.out.println("error, not found!");
         }
     }
-
-
 }
