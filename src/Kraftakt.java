@@ -1,12 +1,9 @@
 
-import org.apache.poi.hssf.usermodel.HSSFSheet;
-import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.FormulaEvaluator;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -15,20 +12,11 @@ import java.util.*;
 
 public class Kraftakt {
     public  ArrayList<String> aktorer = new ArrayList<>();
-    private  ArrayList<String> postNr = new ArrayList<>();
     HashMap<String, String> hashMap = new HashMap<String, String>();
 
     public Kraftakt() throws IOException {
         reader();
         secondReader();
-        findProvider("9700");
-    }
-
-    public ArrayList<String> fillPostNr() {
-        for(int i = 0; i < 9992; i++) {
-            postNr.add(String.format("%04d", i));
-        }
-        return postNr;
     }
 
     public HashMap<String, String> secondReader() throws IOException {
@@ -71,7 +59,7 @@ public class Kraftakt {
     public ArrayList<String> reader() {
         try (Scanner sc = new Scanner(new File("src\\nettleie_og_kommuner.txt"))) {
             while (sc.hasNextLine()) {
-                aktorer.add(sc.nextLine());
+                aktorer.add(sc.nextLine().toUpperCase());
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -86,7 +74,7 @@ public class Kraftakt {
             Object value = entry.getValue();
             if (str.equals(key)) {
                 for (String aktor : aktorer) {
-                    if (aktor.toUpperCase(Locale.ROOT).contains((CharSequence) value)) {
+                    if (aktor.toUpperCase().contains((CharSequence) value)) {
                         System.out.println(aktor);
                         break;
                     }
