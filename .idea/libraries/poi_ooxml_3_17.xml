@@ -2,11 +2,8 @@
   <library name="poi-ooxml-3.17">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../Downloads/poi-ooxml-3.17.jar!/" />
-      <root url="file://$PROJECT_DIR$" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="file://$PROJECT_DIR$/src" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>

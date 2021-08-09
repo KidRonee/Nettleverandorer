@@ -2,11 +2,8 @@
   <library name="xmlbeans-2.6.0">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../Downloads/xmlbeans-2.6.0.jar!/" />
-      <root url="file://$PROJECT_DIR$" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="file://$PROJECT_DIR$/src" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>

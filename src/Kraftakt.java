@@ -23,7 +23,7 @@ public class Kraftakt {
     }
 
     public HashMap<String, String> secondReader() throws IOException {
-        FileInputStream fis = new FileInputStream(new File("C:\\Users\\Mathi\\IdeaProjects\\Nettleverandorer\\src\\Postnummerregister-Excel  (1) .xlsx"));
+        FileInputStream fis = new FileInputStream(new File("C:\\Users\\TM61\\git\\src\\Postnummerregister-Excel  (1) .xlsx"));
         XSSFWorkbook wb = new XSSFWorkbook(fis);
         XSSFSheet sheet = wb.getSheetAt(0);
         String pn = "";

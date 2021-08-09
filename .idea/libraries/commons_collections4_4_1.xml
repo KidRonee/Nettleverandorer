@@ -2,11 +2,8 @@
   <library name="commons-collections4-4.1">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../Downloads/commons-collections4-4.1.jar!/" />
-      <root url="file://$PROJECT_DIR$" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="file://$PROJECT_DIR$/src" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>
