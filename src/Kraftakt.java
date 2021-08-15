@@ -36,7 +36,6 @@ public class Kraftakt {
                         System.out.print(cell.getNumericCellValue()+ "\t\t");
                         break;
                     case Cell.CELL_TYPE_STRING:
-                        //System.out.print(cell.getStringCellValue()+ "\t\t");
                         if (cell.getStringCellValue().equals("Kommunenavn") || cell.getStringCellValue().equals("Postnummer"))
                             break;
                         if (cell.getStringCellValue().matches(".*\\d.*")) {
@@ -52,7 +51,6 @@ public class Kraftakt {
                         throw new IllegalStateException("Unexpected value: " + formulaEvaluator.evaluateInCell(cell).getCellType());
                 }
                 if (!pn.equals("") && !kommune.equals(""))
-                   // postNr.add(pn + "\t" + kommune);
                     hashMap.put(pn, kommune);
             }
         }
