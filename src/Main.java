@@ -7,7 +7,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         boolean exit = false;
         System.out.println("Hei, velkommen til nettleielokatoren til Mathias!");
-        while(exit == false) {
+        while(!exit) {
             new Program();
             System.out.println("trykk enter for nytt postnummer.");
             System.out.println("skriv exit hvis du ønsker å avslutte.");
