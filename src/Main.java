@@ -9,11 +9,11 @@ public class Main {
         System.out.println("Hei, velkommen til nettleielokatoren til Mathias!");
         while(!exit) {
             new Program();
-            System.out.println("trykk enter for nytt postnummer.");
-            System.out.println("skriv exit hvis du ønsker å avslutte.");
+            System.out.println("Trykk enter for nytt postnummer.");
+            System.out.println("Skriv exit hvis du ønsker å avslutte.");
             if (sc.nextLine().equals("exit"))
                 exit = true;
         }
-        System.out.println("hadebra!");
+        System.out.println("Hadebra!");
     }
 }

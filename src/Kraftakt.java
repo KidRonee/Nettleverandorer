@@ -13,6 +13,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+import static java.lang.System.out;
+
 public class Kraftakt {
     public  ArrayList<String> aktorer = new ArrayList<>();
     HashMap<String, String> hashMap = new HashMap<String, String>();
@@ -23,7 +25,7 @@ public class Kraftakt {
     }
 
     public HashMap<String, String> secondReader() throws IOException {
-        FileInputStream fis = new FileInputStream(new File("etc/Postnummerregister-Excel  (1) .xlsx"));
+        FileInputStream fis = new FileInputStream(new File("Nettleverandorer/etc/Postnummerregister-Excel  (1) .xlsx"));
         XSSFWorkbook wb = new XSSFWorkbook(fis);
         XSSFSheet sheet = wb.getSheetAt(0);
         String pn = "";
@@ -58,13 +60,13 @@ public class Kraftakt {
     }
 
     public ArrayList<String> reader() {
-        try (Scanner sc = new Scanner(new File("etc/nettleie_og_kommuner.txt"))) {
+        try (Scanner sc = new Scanner(new File("Nettleverandorer/etc/nettleie_og_kommuner.txt"))) {
             while (sc.hasNextLine()) {
                 aktorer.add(sc.nextLine().toUpperCase());
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
-            System.out.println("error");
+            out.println("error");
         }
         return aktorer;
     }
@@ -76,7 +78,7 @@ public class Kraftakt {
             if (str.equals(key)) {
                 for (String aktor : aktorer) {
                     if (aktor.toUpperCase().contains((CharSequence) value)) {
-                        System.out.println(aktor);
+                        out.println(aktor);
                         break;
                     }
                 }
